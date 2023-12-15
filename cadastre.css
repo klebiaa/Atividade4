@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Playfair+Display:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 66px;
+}
+.back{
+    border-radius: 10%;
+    margin-top: 0%;
+    margin-left: 30%;
+    margin-right: 27%;
+    max-width: 70%;
+}
+section,
+footer {
+    padding: 255px 0; 
+}
+body{
+   background-color:rgb(255, 255, 255);
+   padding: 100px 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul a{
+    color: white;
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: block;
+}
+.logotipo2{
+    position:absolute;
+    top:0.5%;
+    left: 5%;
+}
+nav .carrinho2{
+    position:absolute;
+    top: 2%;
+    left: 85%;
+}
+.Menu2{
+    position:absolute;
+    top: 2.7%;
+    left: 95%;
+    width: 34px;
+    right: 34px;
+}
+.cont_menu{
+    color: rgba(168, 70, 0, 0.918);
+    
+}
+.box_menu{
+    position: absolute;
+    top: 2.3%;
+    left: 93%;
+    width: 34px;
+    right: 34px;
+}
+.box_menu .sidebar_menu{
+    float: right;
+    height: 100%;
+    width: 320px;
+    background-color:  rgb(255, 241, 214);
+    position: fixed;
+    top:0;
+    left: 79.3%;
+    overflow: hidden;
+    left: 1350px;
+    transition: all 0.3s linear;
+}
+.box_menu .sidebar_titulo{
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    box-shadow: 0px 2px 0px #6e38382e;
+}
+.box_menu .sidebar_titulo{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    left: 20px;
+    line-height: 60px;
+    cursor: default;
+}
+.sidebar_menu .cont_menu{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    display: block;
+}
+.sidebar_menu .cont_menu li{
+    list-style: none;
+    margin: 10px;
+    padding: 14px 20px;
+    border-radius: 10px; 
+    transition: 0.3s; 
+}
+.sidebar_menu .cont_menu li:hover{
+    background-color: rgb(255, 255, 254);
+}
+.sidebar_menu .cont_menu a{
+    color: chocolate;
+    text-decoration: none;
+    font-size: 20px;
+}
+.box_menu .Menu img{
+    cursor: pointer;
+}
+.sidebar_menu .btn_close img{
+    font-size: 25px;
+    line-height: 60px;
+    position: absolute;
+    top: 20px;
+    left: 260px;
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+#check:checked ~ .sidebar_menu{
+    left: 1030px; 
+}
+
+.btn1{
+    font-family: 'Metal', serif;
+    border-radius: 40%;
+    background-color: rgb(136, 72, 0);
+    color: white;
+    padding: 5px 100px;
+    border-radius: 5px;
+    display: inline-block;
+    position: absolute;
+    left: 33%;
+    top:30%
+}
+.linha{
+    position: absolute;
+    top:10%;
+
+}
+.p1{
+    position: absolute;
+    top: 105%;
+    left:0%;
+}
+.p2{
+    cursor: pointer;
+    color: rgb(0, 162, 255);
+    position: absolute;
+    top:105%;
+    left: 18%;
+}
+.fundo{
+    width: 1349.3px;
+    height: 150vh;
+}
+.ende{
+    margin-top: 3%;
+}
+.senha{
+    position: absolute;
+    top: 33% ;
+    left: 7%;
+}
+.sen{
+    position: absolute;
+    top: 35% ;
+    left: 0%;
+}
+.form{
+    color: saddlebrown;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+}
+input,select{
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+input[type="submit"]
+{
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    width: 90px;
+    height: 35px;
+    background-color: black
+}
+input[type="button"]
+{
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    width: 90px;
+    height: 35px;
+    background-color: rgb(255, 171, 46)
+}
+.sex{
+    position: absolute;
+    top: 10%;
+    left: 0px;
+}
+h2{
+    position: absolute;
+    top: 40%;
+}
+.masc{
+    position: absolute;
+    top: 10%;
+    left: 9%;
+}
+.fem{
+    position: absolute;
+    top: 10%;
+    left: 24%;
+}
+.out{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+#op1{
+    position: absolute;
+    top: 8.6%;
+    left: 3%;
+}
+#op2{
+    position: absolute;
+    top: 8.6%;
+    left: 18%;
+}
+#op3{
+    position: absolute;
+    top: 8.6%;
+    left: 34%;
+}
